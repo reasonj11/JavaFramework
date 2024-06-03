@@ -1,0 +1,11 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1 th:text="${head}">전달된 값</h1>
+		<h1 th:text="'name: '+${userDTO.getUserName()}"></h1>
+		<h1 th:text="'id: '+${userDTO.getUserId()}"></h1>
+		<h1 th:text="'phone: '+${userDTO.getUserPhone()}"></h1>
+	</body>
+</html>

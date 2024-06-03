@@ -1,0 +1,12 @@
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1 th:text="${head}">전달된 값</h1>
+		<h1 th:text="'title: '+${bookDTO.getUserTitle}"></h1>
+		<h1 th:text="'author: '+${bookDTO.getUserAuthor}"></h1>
+		<h1 th:text="'publisher: '+${bookDTO.getUserPublisher}"></h1>
+		<h1 th:text="'price: '+${bookDTO.getUserPrice}"></h1>
+	</body>
+</html>

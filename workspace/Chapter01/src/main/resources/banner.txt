@@ -1,0 +1,2 @@
+Yuhan banner
+${spring-boot.formatted-version}
