@@ -1,0 +1,26 @@
+package com.rubypaper;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.rubypaper.domain.Users;
+import com.rubypaper.persistence.UserRepository;
+
+@SpringBootTest
+public class UsersRepositoryTest {
+	@Autowired
+	private UserRepository usersRepo;
+	@Test
+	public void testInsertUsers() {
+		Users user = new Users();
+		user.setId("lee");
+		user.setPw("lee111!");
+		user.setPw2("lee111!");
+		user.setName("leesunshin");
+		user.setEmail("lee123@naver.com");
+		user.setAddress("Korea");
+		user.setPhone("01011111111");
+		userRepo.save(user);
+	}
+}

@@ -1,0 +1,24 @@
+package com.rubypaper.persistence; 
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+@Repository
+public class UsersDAO {
+	@Autowired
+	private JdbcTemplate spring;
+	private final static String USERS_INSERT=
+			"insert into Users (id, pw, pw2, name, email, address, phone) values(?,?,?,?,?,?,?) ";
+	private final static String USERS_LIST
+			="select * from users";
+	public void insertUsers(Map<String, Object> users) { 
+		spring.update(USERS_INSERT,users.get("id"),
+				users.get("pw"), users.get("name"));
+	}
+
+	public List<Map<String, Object>> getUsers(){
+	return spring.queryForList (USERS_LIST);
+	}
+}

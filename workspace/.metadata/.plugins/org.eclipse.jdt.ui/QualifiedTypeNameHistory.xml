@@ -19,11 +19,21 @@
     <fullyQualifiedTypeName name="org.springframework.test.web.servlet.result.MockMvcResultMatchers"/>
     <fullyQualifiedTypeName name="org.springframework.test.web.servlet.result.MockMvcResultHandlers"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
     <fullyQualifiedTypeName name="org.hibernate.mapping.List"/>
-    <fullyQualifiedTypeName name="com.rubypaper.domain.Board"/>
-    <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.rubypaper.domain.Login"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Transient"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.TemporalType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Temporal"/>
+    <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.rubypaper.domain.Board"/>
+    <fullyQualifiedTypeName name="com.rubypaper.persistence.BoardRepository"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.rubypaper.domain.User"/>
 </qualifiedTypeNameHistroy>
